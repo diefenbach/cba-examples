@@ -1,0 +1,3 @@
+include README.txt
+recursive-include cba_examples/static *
+recursive-include cba_examples/templates *
