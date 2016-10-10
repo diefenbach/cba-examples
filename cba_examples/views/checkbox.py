@@ -22,7 +22,10 @@ class CheckboxRoot(components.Group):
                         ]
                     ),
                     components.HTML(id="result", tag="div", css_class="mt mb", content="Please select one ore more fruits!"),
-                    components.Button(id="button", value="OK", handler={"click": "server:handle_button"}),
+                    components.Button(
+                        id="button",
+                        value="OK",
+                        handler={"click": "server:handle_button"}),
                 ]
             )
         ]
