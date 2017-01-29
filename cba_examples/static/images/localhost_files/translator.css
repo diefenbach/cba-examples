@@ -1,0 +1,29 @@
+label {
+    display: block;
+    font-weight: bold;
+    color: blue;
+}
+
+.origin {
+    position: relative;
+}
+
+.origin.translated {
+    color: blue;
+}
+
+.untranslated {
+    cursor: pointer;
+    padding: 2px 0;
+}
+
+.translation {
+    display: none;
+    position: absolute; top: 25px;
+    width: 400px;
+    border: 1px solid #aaa;
+    background: #eee;
+    padding: 10px;
+    z-index: 1000;
+    color: black;
+}
