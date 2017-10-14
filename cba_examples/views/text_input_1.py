@@ -1,7 +1,7 @@
 from __future__ import print_function, unicode_literals
 
 from cba import components
-from cba.views import CBAView
+from cba.base import CBAView
 
 
 class TextInputRoot(components.Group):
@@ -34,6 +34,8 @@ class TextInputRoot(components.Group):
             result.content = "You entered: {}".format(name.value)
             result.refresh()
 
+        # Name needs to be refreshed in any case a we have to display / hide
+        # error messages
         name.refresh()
 
 

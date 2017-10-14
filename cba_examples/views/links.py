@@ -3,7 +3,7 @@ from __future__ import print_function, unicode_literals
 from django.core.urlresolvers import reverse
 
 from cba import components
-from cba.views import CBAView
+from cba.base import CBAView
 
 
 class LinksRoot(components.Group):

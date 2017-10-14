@@ -2,7 +2,7 @@ from __future__ import print_function, unicode_literals
 
 from cba import components
 from cba import layouts
-from cba.views import CBAView
+from cba.base import CBAView
 
 
 class SelectRoot(components.Group):
