@@ -10,7 +10,7 @@ class TableRoot(components.Group):
             components.Group(
                 css_class="ui form container",
                 initial_components=[
-                    components.HTML(tag="h1", content="Table with data provider", css_class="mb mt"),
+                    components.HTML(tag="h1", content="Table without data provider", css_class="mb mt"),
                     components.Table(
                         id="table",
                         headers=("Name", "Age", "Profession"),
