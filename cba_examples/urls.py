@@ -3,6 +3,7 @@ from django.conf.urls import url
 from cba_examples.views import button
 from cba_examples.views import checkbox
 from cba_examples.views import drag_n_drop
+from cba_examples.views import edit_text
 from cba_examples.views import dnd_select
 from cba_examples.views import file_input_1
 from cba_examples.views import file_input_2
@@ -32,6 +33,7 @@ urlpatterns = [
     url(r'^checkboxes$', checkbox.CheckboxView.as_view(), name='checkboxes'),
     url(r'^dnd-select$', dnd_select.View.as_view(), name='dnd_select'),
     url(r'^drag-n-drop$', drag_n_drop.DragnDropView.as_view(), name='drag_n_drop'),
+    url(r'^edit-text$', edit_text.View.as_view(), name='edit_text'),
     url(r'^links$', links.LinksView.as_view(), name='link'),
     url(r'^list-1$', list_1.LinksView.as_view(), name='list_1'),
     url(r'^file-input-1$', file_input_1.FileInputView.as_view(), name='file_input_1'),

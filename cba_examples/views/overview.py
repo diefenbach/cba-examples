@@ -19,6 +19,7 @@ class OverviewRoot(components.Group):
                             components.Link(text="Button", href=reverse("button")),
                             components.Link(text="Checkboxes", href=reverse("checkboxes")),
                             components.Link(text="Drag and Drop", href=reverse("drag_n_drop")),
+                            components.Link(text="Edit Text", href=reverse("edit_text")),
                             components.Link(text="File Input 1", href=reverse("file_input_1")),
                             components.Link(text="File Input 2", href=reverse("file_input_2")),
                             components.Link(text="Radio buttons", href=reverse("radio")),
